@@ -2,8 +2,6 @@ package org.usfirst.frc.team3042.robot;
 
 
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.buttons.Button;
-import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
 
 /**
@@ -39,7 +37,7 @@ public class OI {
 	// until it is finished as determined by it's isFinished method.
 	// button.whenReleased(new ExampleCommand());
 	
-	Joystick gamepad = new Joystick(1);
+	Joystick gamepad = new Joystick(0);
 	
 	public OI() {
 	}
