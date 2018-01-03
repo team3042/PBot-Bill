@@ -8,9 +8,7 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-import org.usfirst.frc.team3042.robot.subsystems.CameraServo;
 import org.usfirst.frc.team3042.robot.subsystems.Drivetrain;
-import org.usfirst.frc.team3042.robot.subsystems.RotationDevice;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -21,9 +19,7 @@ import org.usfirst.frc.team3042.robot.subsystems.RotationDevice;
  */
 public class Robot extends IterativeRobot {
 
-	public static final CameraServo cameraServo = new CameraServo();
 	public static final Drivetrain drivetrain = new Drivetrain();
-	public static final RotationDevice rotationDevice = new RotationDevice();
 	public static OI oi;
 
 	Command autonomousCommand;
